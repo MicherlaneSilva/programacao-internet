@@ -26,6 +26,7 @@ def limparTela():
 
 
 def baixarSite(nameSite):
+    requests_cache.install_cache('dados')
     return requests.get(nameSite)
 
 def obterLinks(response, qLinks):
@@ -80,7 +81,7 @@ def listarResultados(resultados):
 
 
 def main():
-    requests_cache.install_cache('banco')
+    #requests_cache.install_cache('banco')
     obterLinks(baixarSite('https://www.megacurioso.com.br/'), 100)
 
     while True:
