@@ -22,4 +22,5 @@ function mainMeuNumero() {
     console.log(numero.getInteiro());
     console.log(numero.getDecimal());
 }
+mainMeuNumero();
 //# sourceMappingURL=MeuNumero.js.map

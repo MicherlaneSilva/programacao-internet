@@ -1,7 +1,7 @@
 class MeuNumero{
-    private numero:number;
+    private numero: number;
 
-    constructor(numero:number){
+    constructor(numero: number){
         this.numero = numero;
     }
 
@@ -28,4 +28,5 @@ function mainMeuNumero(){
     console.log(numero.getInteiro());
     console.log(numero.getDecimal());
 }
+mainMeuNumero();
 
